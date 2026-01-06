@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.env.local
+tasks.db
+coverage
+.DS_Store
+*.log
+.nx
+yarn.lock

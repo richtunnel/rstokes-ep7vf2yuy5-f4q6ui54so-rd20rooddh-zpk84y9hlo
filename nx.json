@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "projectNameAndRootFormat": "derived",
+  "extends": "nx/presets/npm.json",
+  "plugins": ["@nx/angular", "@nx/nest"]
+}
