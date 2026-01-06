@@ -1,17 +1,8 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "../../dist/out-tsc",
-    "moduleResolution": "bundler",
-    "ignoreDeprecations": "6.0",
-    "strictPropertyInitialization": false,
-    "declaration": true,
-    "declarationMap": true,
-    "baseUrl": ".",
-    "types": ["node"],
-    "paths": {
-      "@task-mgmt/data": ["libs/data/src/index.ts"]
-    }
+    "outDir": "../../dist/out-tsc"
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"]
+  "exclude": ["src/**/*.spec.ts"]
 }
